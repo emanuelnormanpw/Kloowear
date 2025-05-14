@@ -1,702 +1,1039 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <title>Kloowear Cult</title>
-      <meta name="description" content="">
-      <meta name="keywords" content="">
-      <!-- Favicons -->
-      <link href="assets/img/logo.png" rel="icon">
-      <link href="assets/img/logo.png" rel="apple-touch-icon">
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com" rel="preconnect">
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <!-- Vendor CSS Files -->
-      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-      <!-- Main CSS File -->
-      <link href="assets/css/main.css" rel="stylesheet">
-   </head>
-   <body class="index-page">
-      <header id="header" class="header d-flex align-items-center fixed-top">
-         <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
-            <a href="index.html" class="logo d-flex align-items-center me-auto">
-               <!-- Uncomment the line below if you also wish to use an image logo -->
-               <img src="assets/img/logo.png" alt="">
-               <!-- <h1 class="sitename">Bethany</h1>  -->
-            </a>
-            <nav id="navmenu" class="navmenu">
-               <ul>
-                  <li><a href="#hero" class="active">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#team">Team</a></li>
-                  <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                     <ul>
-                       <li><a href="#">Dropdown 1</a></li>
-                       <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                         <ul>
-                           <li><a href="#">Deep Dropdown 1</a></li>
-                           <li><a href="#">Deep Dropdown 2</a></li>
-                           <li><a href="#">Deep Dropdown 3</a></li>
-                           <li><a href="#">Deep Dropdown 4</a></li>
-                           <li><a href="#">Deep Dropdown 5</a></li>
-                         </ul>
-                       </li>
-                       <li><a href="#">Dropdown 2</a></li>
-                       <li><a href="#">Dropdown 3</a></li>
-                       <li><a href="#">Dropdown 4</a></li>
-                     </ul>
-                     </li> -->
-                  <li><a href="#contact">Contact</a></li>
-               </ul>
-               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-            <a class="btn-getstarted" href="index.html#call-to-action">Chat Now</a>
-         </div>
-      </header>
-      <main class="main">
-         <!-- Hero Section -->
-         <section id="hero" class="hero section dark-background">
-            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-            <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-               <div class="row justify-content-center">
-                  <div class="col-lg-8">
-                     <h2>KLOOWEAR CULT</h2>
-                     <p>Be Different, Be You</p>
-                     <a href="#about" class="btn-get-started">Let's Go</a>
-                  </div>
-               </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kloowear Cult</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/logo.png" rel="apple-touch-icon" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo.png" alt="" />
+          <!-- <h1 class="sitename">Bethany</h1>  -->
+        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <a class="btn-getstarted" href="index.html#call-to-action">Chat Now</a>
+      </div>
+    </header>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="" />
+        <div
+          class="container text-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2>KLOOWEAR CULT</h2>
+              <p>Be Different, Be You</p>
+              <a href="#about" class="btn-get-started">Let's Go</a>
             </div>
-         </section>
-         <!-- /Hero Section -->
-         <!-- Clients Section -->
-         <section id="clients" class="clients section light-background">
-          <div class="container" data-aos="fade-up">
-              <div id="clients-swiper" class="swiper">
-                  <div class="swiper-wrapper">
-                      <!-- Client Items -->
-                      <div class="swiper-slide">
-                          <div class="client-logo">
-                              <img src="assets/img/clients/omo.png" class="img-fluid" alt="Client 1">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="client-logo">
-                              <img src="assets/img/clients/ll.png" class="img-fluid" alt="Client 2">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="client-logo" >
-                          <img src="assets/img/clients/mh.png" class="img-fluid" alt="Client 5">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="client-logo">
-                          <img src="assets/img/clients/gb.png" class="img-fluid" alt="Client 6">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="client-logo">
-                          <img src="assets/img/clients/mi.png" class="img-fluid" alt="Client 7">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="client-logo">
-                          <img src="assets/img/clients/uniska.png" class="img-fluid" alt="Client 8">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="client-logo">
-                              <img src="assets/img/clients/bri.png" class="img-fluid" alt="Client 3">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="client-logo">
-                              <img src="assets/img/clients/ic.webp" class="img-fluid" alt="Client 4">
-                          </div>
-                      </div>
-                  </div>
-              </div>
           </div>
+        </div>
       </section>
-         <!-- /Clients Section -->
-         <!-- About Section -->
-         <section id="about" class="about section">
-            <div class="container">
-               <div class="row gy-4">
-                  <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
-                     <img src="assets/img/about.jpg" class="img-fluid" alt="">
-                     <a href="https://www.youtube.com/watch?v=7msWpDCKk-0&t=13s" class="glightbox pulsating-play-btn"></a>
-                  </div>
-                  <div class="col-lg-6 col-md-5" content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
-                     <h3>About Us</h3>
-                     <p class="justify-text">
-                        Founded in 2015, Kloowear was born out of a simple frustration—the lack of quality accessories that could be customized to reflect personal style and function. From that need, a brand was built with a strong commitment to craftsmanship and individuality.
-                        At Kloowear, every product is handmade, not mass-produced. We craft each piece as if it were for ourselves—ensuring it's durable, cleanly finished, and comfortable to wear. Using only premium materials, we create accessories that are built to last—whether you're in the city or out in the wild.
-                        We believe that everyone deserves to stand out and express themselves through unique gear. That's why we offer fully customizable designs to match your identity and purpose.
-                        Over the years, Kloowear has become a trusted choice among outdoor enthusiasts, creators, and anyone looking for distinctive, well-made gear.
-                        Our long-term vision is clear: to build the largest and most complete paracord store in Kediri, where quality, creativity, and personal style come together.
-                        Kloowear – Be Different, Be You.            
-                     </p>
-                     <!-- 
-                     <ul>
-                        <li>
-                          <i class="bi bi-diagram-3"></i>
-                          <div>
-                            <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                          </div>
-                        </li>
-                        <li>
-                          <i class="bi bi-fullscreen-exit"></i>
-                          <div>
-                            <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                            <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                          </div>
-                        </li>
-                        <li>
-                          <i class="bi bi-broadcast"></i>
-                          <div>
-                            <h5>Voluptatem et qui exercitationem</h5>
-                            <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
-                          </div>
-                        </li>
-                     </ul>
-                     -->
-                  </div>
-               </div>
+      <!-- /Hero Section -->
+      <!-- Clients Section -->
+      <section id="clients" class="clients section light-background">
+        <div class="container" data-aos="fade-up">
+          <div id="clients-swiper" class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Client Items -->
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/omo.png"
+                    class="img-fluid"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/ll.png"
+                    class="img-fluid"
+                    alt="Client 2"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/mh.png"
+                    class="img-fluid"
+                    alt="Client 5"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/gb.png"
+                    class="img-fluid"
+                    alt="Client 6"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/mi.png"
+                    class="img-fluid"
+                    alt="Client 7"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/uniska.png"
+                    class="img-fluid"
+                    alt="Client 8"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/bri.png"
+                    class="img-fluid"
+                    alt="Client 3"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo">
+                  <img
+                    src="assets/img/clients/ic.webp"
+                    class="img-fluid"
+                    alt="Client 4"
+                  />
+                </div>
+              </div>
             </div>
-         </section>
-         <!-- /About Section -->
-         <!-- Stats Section -->
-         <section id="stats" class="stats section accent-background">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-               <div class="row gy-4">
-                  <div class="col-lg-3 col-md-6">
-                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Years Experience</p>
-                     </div>
-                  </div>
-                  <!-- End Stats Item -->
-                  <div class="col-lg-3 col-md-6">
-                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>% Satisfaction</p>
-                     </div>
-                  </div>
-                  <!-- End Stats Item -->
-                  <div class="col-lg-3 col-md-6">
-                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="3601" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Positive Review</p>
-                     </div>
-                  </div>
-                  <!-- End Stats Item -->
-                  <div class="col-lg-3 col-md-6">
-                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="124" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Colors Option</p>
-                     </div>
-                  </div>
-                  <!-- End Stats Item -->
-               </div>
-            </div>
-         </section>
-         <!-- /Stats Section -->
-          <!-- Why Choose Us Section -->
-         <section id="why-us" class="why-us section">
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-             <h2>Why Choose Us</h2>
-             <p>Discover what makes Kloowear stand out in every stitch</p>
           </div>
-          <!-- End Section Title -->
-          <div class="container">
-             <div class="row gy-4">
-                <!-- Handmade Quality -->
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                   <div class="why-us-item position-relative">
-                    <div class="icon">
-                      <i class="bi bi-hand-thumbs-up"></i>
-                   </div>
-                      <a class="stretched-link">
-                         <h3>Handmade Quality
-                        </h3>
-                      </a>
-                      <p>Each piece is crafted by hand with meticulous attention to detail.</p>
-                   </div>
-                </div>
-                <!-- End Handmade Quality Item -->
-                <!-- Military-Grade -->
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                   <div class="why-us-item position-relative">
-                      <div class="icon">
-                         <i class="bi bi-boxes"></i>
-                      </div>
-                      <a  class="stretched-link">
-                         <h3>Military-Grade</h3>
-                      </a>
-                      <p>550 lbs paracord tested for strength and water resistance.</p>
-                   </div>
-                </div>
-                <!-- End Military-Grade Item -->
-                <!-- Custom Designs Service -->
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                   <div class="why-us-item position-relative">
-                    <div class="icon">
-                      <i class="bi bi-palette"></i>
-                   </div>
-                      <a  class="stretched-link">
-                         <h3>Custom Designs</h3>
-                      </a>
-                      <p>Personalize colors and engravings to match your style.</p>
-                   </div>
-                </div>
-                <!-- End Custom Designs Item -->
-                <!-- Ethical Craft -->
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                   <div class="why-us-item position-relative">
-                      <div class="icon">
-                         <i class="bi bi-heart"></i>
-                      </div>
-                      <a  class="stretched-link">
-                         <h3>Ethical Craft</h3>
-                      </a>
-                      <p>Supporting local artisans with fair wages.</p>
-                   </div>
-                </div>
-                <!-- End Ethical Craft Item -->
-                <!-- End Why Choose Us -->
-             </div>
+        </div>
+      </section>
+      <!-- /Clients Section -->
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+              <a
+                href="https://www.youtube.com/watch?v=7msWpDCKk-0&t=13s"
+                class="glightbox pulsating-play-btn"
+              ></a>
+            </div>
+            <div
+              class="col-lg-6 col-md-5 content order-last order-lg-first"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h3>About Us</h3>
+              <p class="justify-text">
+                Founded in 2015, Kloowear was born out of a simple
+                frustration—the lack of quality accessories that could be
+                customized to reflect personal style and function. From that
+                need, a brand was built with a strong commitment to
+                craftsmanship and individuality. At Kloowear, every product is
+                handmade, not mass-produced. We craft each piece as if it were
+                for ourselves—ensuring it's durable, cleanly finished, and
+                comfortable to wear. Using only premium materials, we create
+                accessories that are built to last—whether you're in the city or
+                out in the wild. We believe that everyone deserves to stand out
+                and express themselves through unique gear. That's why we offer
+                fully customizable designs to match your identity and purpose.
+                Over the years, Kloowear has become a trusted choice among
+                outdoor enthusiasts, creators, and anyone looking for
+                distinctive, well-made gear. Our long-term vision is clear: to
+                build the largest and most complete paracord store in Kediri,
+                where quality, creativity, and personal style come together.
+                Kloowear – Be Different, Be You.
+              </p>
+            </div>
           </div>
-       </section>
-       <!-- /Why Choose Us Section -->
-         <section id="call-to-action" class="call-to-action section dark-background">
-            <img src="assets/img/cta-bg.jpg" alt="">
-            <div class="container">
-               <div class="row" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="col-xl-9 text-center text-xl-start">
-                     <h3>Say Hi to Bakul Tali. Your 24/7 Paracord Pal!</h3>
-                     <p>
-                        This ain’t your average AI. Bakul Tali learns from <strong>artisan tricks</strong> and <strong>your wildest ideas</strong>  
-                        to suggest paracord combos you won’t find anywhere else.  
-                     </p>
-                  </div>
-                  <div class="col-xl-3 cta-btn-container text-center">
-                     <a class="cta-btn align-middle" href="#chat-container">
-                     <i class="bi bi-robot me-2"></i> Coming Soon
-                     </a>
-                  </div>
-               </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+      <!-- Stats Section -->
+      <section id="stats" class="stats section accent-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="10"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Years Experience</p>
+              </div>
             </div>
-         </section>
-         <!-- /Call To Action Section -->
-         <!-- Services Section -->
-         <section id="services" class="services section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-               <h2>Our Services</h2>
-               <p>Quality paracord solutions tailored to your needs</p>
+            <!-- End Stats Item -->
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="98"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>% Satisfaction</p>
+              </div>
             </div>
-            <!-- End Section Title -->
-            <div class="container">
-               <div class="row gy-4">
-                  <!-- Custom Designs -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-palette"></i>
-                        </div>
-                        <a class="stretched-link">
-                           <h3>Custom Designs</h3>
-                        </a>
-                        <p>Create unique paracord accessories with your choice of colors, patterns, and personal engravings.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-                  <!-- Bulk Orders -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-boxes"></i>
-                        </div>
-                        <a  class="stretched-link">
-                           <h3>Bulk Orders</h3>
-                        </a>
-                        <p>Special discounts for group purchases. Perfect for events, teams, or corporate gifts.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-                  <!-- Repair Service -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-tools"></i>
-                        </div>
-                        <a  class="stretched-link">
-                           <h3>Repair Service</h3>
-                        </a>
-                        <p>We fix damaged paracord items. Free repairs for products purchased from us.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-                  <!-- Workshops -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-people"></i>
-                        </div>
-                        <a  class="stretched-link">
-                           <h3>DIY Workshops</h3>
-                        </a>
-                        <p>Learn to make your own paracord accessories through our online or in-person classes.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-                  <!-- Survival Kits -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-shield-check"></i>
-                        </div>
-                        <a  class="stretched-link">
-                           <h3>Survival Kits</h3>
-                        </a>
-                        <p>Ready-made paracord bundles with essential outdoor tools for your adventures.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-                  <!-- Fast Shipping -->
-                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                     <div class="service-item position-relative">
-                        <div class="icon">
-                           <i class="bi bi-lightning-charge"></i>
-                        </div>
-                        <a  class="stretched-link">
-                           <h3>Fast Shipping</h3>
-                        </a>
-                        <p>Most orders processed within 24 hours. Free shipping options available.</p>
-                     </div>
-                  </div>
-                  <!-- End Service Item -->
-               </div>
+            <!-- End Stats Item -->
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="3601"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Positive Review</p>
+              </div>
             </div>
-         </section>
-         <!-- /Services Section -->
-         <!-- Portfolio Section -->
-         <section id="portfolio" class="portfolio section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-               <h2>Our Creations</h2>
-               <p>Handcrafted paracord accessories that tell your story</p>
+            <!-- End Stats Item -->
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="124"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Colors Option</p>
+              </div>
             </div>
-            <!-- End Section Title -->
-            <div class="container">
-               <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                     <li data-filter="*" class="filter-active">All</li>
-                     <li data-filter=".filter-bracelet">Bracelet</li>
-                     <li data-filter=".filter-lanyard">Lanyard</li>
-                     <li data-filter=".filter-keychain">Keychain</li>
-                     <li data-filter=".filter-zipper">Zipper Pull</li>
-                  </ul>
-                  <!-- End Portfolio Filters -->
-                  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                     <!-- Item 1 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/b4.JPG" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/b4.JPG" class="img-fluid" alt="Cobra Weave Bracelet"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Cobra Weave Bracelet</a></h4>
-                              <p>Military-grade 550 paracord with premium buckle</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 2 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/l2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/l2.jpg" class="img-fluid" alt="Office ID Lanyard"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Office ID Lanyard</a></h4>
-                              <p>Lightweight design with quick-release clasp</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 3 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/k.JPG" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/k.JPG" class="img-fluid" alt="Survival Keychain"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Survival Keychain</a></h4>
-                              <p>Integrated fire starter and mini compass</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 4 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/z3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/z3.jpg" class="img-fluid" alt="Colorful Zipper Pull"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Tactical Zipper Pull</a></h4>
-                              <p>Ready for action, built to impress.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 5 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/b7.JPG" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/b7.JPG" class="img-fluid" alt="DNA Bracelet"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Premium Bracelet</a></h4>
-                              <p>Double helix weave with personalized bead</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 6 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/l3.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/l3.png" class="img-fluid" alt="Festival Lanyard"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Casual Lanyard</a></h4>
-                              <p>Multi purpose lanyard for daily activity</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 7 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/k2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/k2.jpg" class="img-fluid" alt="Carabiner Keychain"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Carabiner Keychain</a></h4>
-                              <p>Aluminum carabiner with paracord grip</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 8 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/z1.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/z1.png" class="img-fluid" alt="Camouflage Zipper Pull"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Tactical Zipper Pull</a></h4>
-                              <p>Tough look, smooth function – Camouflage Zipper Pull.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 9 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/b6.JPG" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/b6.JPG" class="img-fluid" alt="Family Bracelet Set"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Whale Bracelet</a></h4>
-                              <p>Simple design that adds a unique twist to your daily outfit.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 10 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/l1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/l1.jpg" class="img-fluid" alt="Tactical Lanyard"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Tactical Lanyard</a></h4>
-                              <p>Breakaway design with tactical look</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 11 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/k3.JPG" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/k3.JPG" class="img-fluid" alt="Bottle Opener Keychain"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Casual Keychain</a></h4>
-                              <p>Best for tagging anykind of your key</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
-                     <!-- Item 12 -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper">
-                        <div class="portfolio-content h-100">
-                           <a href="assets/img/portfolio/z2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/z2.jpg" class="img-fluid" alt="Glow Zipper Pull"></a>
-                           <div class="portfolio-info">
-                              <h4><a href="" title="More Details">Basic Zipper Pull</a></h4>
-                              <p>Blend in. Stand out. The perfect zip detail.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Portfolio Item -->
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+      <!-- Why Choose Us Section -->
+      <section id="why-us" class="why-us section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Why Choose Us</h2>
+          <p>Discover what makes Kloowear stand out in every stitch</p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container">
+          <div class="row gy-4">
+            <!-- Handmade Quality -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="why-us-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-hand-thumbs-up"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Handmade Quality</h3>
+                </a>
+                <p>
+                  Each piece is crafted by hand with meticulous attention to
+                  detail.
+                </p>
+              </div>
+            </div>
+            <!-- End Handmade Quality Item -->
+            <!-- Military-Grade -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="why-us-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-boxes"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Military-Grade</h3>
+                </a>
+                <p>
+                  550 lbs paracord tested for strength and water resistance.
+                </p>
+              </div>
+            </div>
+            <!-- End Military-Grade Item -->
+            <!-- Custom Designs Service -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="why-us-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-palette"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Custom Designs</h3>
+                </a>
+                <p>Personalize colors and engravings to match your style.</p>
+              </div>
+            </div>
+            <!-- End Custom Designs Item -->
+            <!-- Ethical Craft -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="why-us-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-heart"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Ethical Craft</h3>
+                </a>
+                <p>Supporting local artisans with fair wages.</p>
+              </div>
+            </div>
+            <!-- End Ethical Craft Item -->
+            <!-- End Why Choose Us -->
+          </div>
+        </div>
+      </section>
+      <!-- /Why Choose Us Section -->
+      <section
+        id="call-to-action"
+        class="call-to-action section dark-background"
+      >
+        <img src="assets/img/cta-bg.jpg" alt="" />
+        <div class="container">
+          <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-9 text-center text-xl-start">
+              <h3>Say Hi to Bakul Tali. Your 24/7 Paracord Pal!</h3>
+              <p>
+                This ain’t your average AI. Bakul Tali learns from
+                <strong>artisan tricks</strong> and
+                <strong>your wildest ideas</strong>
+                to suggest paracord combos you won’t find anywhere else.
+              </p>
+            </div>
+            <div class="col-xl-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#chat-container">
+                <i class="bi bi-robot me-2"></i> Coming Soon
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Call To Action Section -->
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>Quality paracord solutions tailored to your needs</p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container">
+          <div class="row gy-4">
+            <!-- Custom Designs -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-palette"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Custom Designs</h3>
+                </a>
+                <p>
+                  Create unique paracord accessories with your choice of colors,
+                  patterns, and personal engravings.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <!-- Bulk Orders -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-boxes"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Bulk Orders</h3>
+                </a>
+                <p>
+                  Special discounts for group purchases. Perfect for events,
+                  teams, or corporate gifts.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <!-- Repair Service -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-tools"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Repair Service</h3>
+                </a>
+                <p>
+                  We fix damaged paracord items. Free repairs for products
+                  purchased from us.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <!-- Workshops -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>DIY Workshops</h3>
+                </a>
+                <p>
+                  Learn to make your own paracord accessories through our online
+                  or in-person classes.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <!-- Survival Kits -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Survival Kits</h3>
+                </a>
+                <p>
+                  Ready-made paracord bundles with essential outdoor tools for
+                  your adventures.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <!-- Fast Shipping -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-lightning-charge"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Fast Shipping</h3>
+                </a>
+                <p>
+                  Most orders processed within 24 hours. Free shipping options
+                  available.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Creations</h2>
+          <p>Handcrafted paracord accessories that tell your story</p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-bracelet">Bracelet</li>
+              <li data-filter=".filter-lanyard">Lanyard</li>
+              <li data-filter=".filter-keychain">Keychain</li>
+              <li data-filter=".filter-zipper">Zipper Pull</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <!-- Item 1 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/b4.JPG"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/b4.JPG"
+                      class="img-fluid"
+                      alt="Cobra Weave Bracelet"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Cobra Weave Bracelet</a>
+                    </h4>
+                    <p>Military-grade 550 paracord with premium buckle</p>
                   </div>
-                  <!-- End Portfolio Container -->
-               </div>
-            </div>
-         </section>
-         <!-- /Portfolio Section -->
-         <!-- Testimonials Section -->
-         <section id="testimonials" class="testimonials section dark-background">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-               <div class="swiper init-swiper">
-                  <script type="application/json" class="swiper-config">
-                     {
-                       "loop": true,
-                       "speed": 600,
-                       "autoplay": {
-                         "delay": 5000
-                       },
-                       "slidesPerView": "auto",
-                       "pagination": {
-                         "el": ".swiper-pagination",
-                         "type": "bullets",
-                         "clickable": true
-                       }
-                     }
-                  </script>
-                  <div class="swiper-wrapper">
-                     <div class="swiper-slide">
-                        <div class="testimonial-item">
-                           <div class="row gy-4 justify-content-center">
-                              <div class="col-lg-6">
-                                 <div class="testimonial-content">
-                                    <p>
-                                       <i class="bi bi-quote quote-icon-left"></i>
-                                       <span>Gue pake gelang Kloowear tiap hari dari hiking sampe ke mall, udah 1 tahun lebih masih keren banget warnanya! Banyak yang nanya beli dimana soalnya modelnya beda dari yang lain.</span>
-                                       <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                    <h3>Budi Santoso</h3>
-                                    <h4>Outdoor Enthusiast, Jakarta</h4>
-                                    <div class="stars">
-                                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-2 text-center">
-                                 <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End testimonial item -->
-                     <div class="swiper-slide">
-                        <div class="testimonial-item">
-                           <div class="row gy-4 justify-content-center">
-                              <div class="col-lg-6">
-                                 <div class="testimonial-content">
-                                    <p>
-                                       <i class="bi bi-quote quote-icon-left"></i>
-                                       <span>Zipper pullnya unik banget! Tas ransel gue jadi paling eye-catching di kantor. Udah 6 bulan dipake masih awet padahal sering kehujanan.</span>
-                                       <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                    <h3>Dewi Anggraeni</h3>
-                                    <h4>Graphic Designer, Bandung</h4>
-                                    <div class="stars">
-                                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-2 text-center">
-                                 <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End testimonial item -->
-                     <div class="swiper-slide">
-                        <div class="testimonial-item">
-                           <div class="row gy-4 justify-content-center">
-                              <div class="col-lg-6">
-                                 <div class="testimonial-content">
-                                    <p>
-                                       <i class="bi bi-quote quote-icon-left"></i>
-                                       <span>ID card kantor gue pake lanyard Kloowear udah setahun lebih. Tahan banting banget - bolak-balik proyek, kena hujan, masih aja kelihatan baru!</span>
-                                       <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                    <h3>Rudi Hermawan</h3>
-                                    <h4>Site Manager, Balikpapan</h4>
-                                    <div class="stars">
-                                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-2 text-center">
-                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End testimonial item -->
-                     <div class="swiper-slide">
-                        <div class="testimonial-item">
-                           <div class="row gy-4 justify-content-center">
-                              <div class="col-lg-6">
-                                 <div class="testimonial-content">
-                                    <p>
-                                       <i class="bi bi-quote quote-icon-left"></i>
-                                       <span>Tali kameranya enak banget dipakai seharian! Ringan tapi kuat, nggak bikin pegel leher kayak tali biasa. Warna orange-nya juga bikin gampang dicari kalo lagi sibuk liputan.</span>
-                                       <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                    <h3>Fitriani Wijaya</h3>
-                                    <h4>Photographer, Yogyakarta</h4>
-                                    <div class="stars">
-                                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-2 text-center">
-                                 <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End testimonial item -->
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 2 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/l2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/l2.jpg"
+                      class="img-fluid"
+                      alt="Office ID Lanyard"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Office ID Lanyard</a>
+                    </h4>
+                    <p>Lightweight design with quick-release clasp</p>
                   </div>
-                  <div class="swiper-pagination"></div>
-               </div>
-            </div>
-         </section>
-         <!-- /Testimonials Section -->
-         <!-- Team Section -->
-         <section id="team" class="team section">
-            <!-- Section Title - Centered -->
-            <div class="container section text-center" data-aos="fade-up">
-               <h2>Founder</h2>
-               <p>The creative mind behind Kloowear's unique paracord designs</p>
-            </div>
-            <!-- End Section Title -->
-            <div class="container">
-               <div class="row gy-4 justify-content-center">
-                  <!-- Added justify-content-center -->
-                  <!-- Single Team Member - Centered -->
-                  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                     <div class="member">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Kloowear Founder">
-                        <h4>Rizky 'Kinthoel'</h4>
-                        <span>Chief Paracord Artisan</span>
-                        <div class="social">
-                           <a href="https://wa.me/6285747868690"><i class="bi bi-whatsapp"></i></a>
-                           <a href="https://www.facebook.com/sikinthoel"><i class="bi bi-facebook"></i></a>
-                           <a href="https://www.instagram.com/sikinthoel/"><i class="bi bi-instagram"></i></a>
-                           <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                     </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 3 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/k.JPG"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/k.JPG"
+                      class="img-fluid"
+                      alt="Survival Keychain"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Survival Keychain</a>
+                    </h4>
+                    <p>Integrated fire starter and mini compass</p>
                   </div>
-                  <!-- End Team Member -->
-                  <!--
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 4 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/z3.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/z3.jpg"
+                      class="img-fluid"
+                      alt="Colorful Zipper Pull"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Tactical Zipper Pull</a>
+                    </h4>
+                    <p>Ready for action, built to impress.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 5 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/b7.JPG"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/b7.JPG"
+                      class="img-fluid"
+                      alt="DNA Bracelet"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Premium Bracelet</a>
+                    </h4>
+                    <p>Double helix weave with personalized bead</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 6 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/l3.png"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/l3.png"
+                      class="img-fluid"
+                      alt="Festival Lanyard"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="" title="More Details">Casual Lanyard</a></h4>
+                    <p>Multi purpose lanyard for daily activity</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 7 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/k2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/k2.jpg"
+                      class="img-fluid"
+                      alt="Carabiner Keychain"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Carabiner Keychain</a>
+                    </h4>
+                    <p>Aluminum carabiner with paracord grip</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 8 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/z1.png"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/z1.png"
+                      class="img-fluid"
+                      alt="Camouflage Zipper Pull"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Tactical Zipper Pull</a>
+                    </h4>
+                    <p>Tough look, smooth function – Camouflage Zipper Pull.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 9 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bracelet"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/b6.JPG"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/b6.JPG"
+                      class="img-fluid"
+                      alt="Family Bracelet Set"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="" title="More Details">Whale Bracelet</a></h4>
+                    <p>
+                      Simple design that adds a unique twist to your daily
+                      outfit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 10 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lanyard"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/l1.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/l1.jpg"
+                      class="img-fluid"
+                      alt="Tactical Lanyard"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Tactical Lanyard</a>
+                    </h4>
+                    <p>Breakaway design with tactical look</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 11 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-keychain"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/k3.JPG"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/k3.JPG"
+                      class="img-fluid"
+                      alt="Bottle Opener Keychain"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="" title="More Details">Casual Keychain</a></h4>
+                    <p>Best for tagging anykind of your key</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <!-- Item 12 -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-zipper"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/z2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/portfolio/z2.jpg"
+                      class="img-fluid"
+                      alt="Glow Zipper Pull"
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="" title="More Details">Basic Zipper Pull</a>
+                    </h4>
+                    <p>Blend in. Stand out. The perfect zip detail.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section dark-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >Gue pake gelang Kloowear tiap hari dari hiking
+                            sampe ke mall, udah 1 tahun lebih masih keren banget
+                            warnanya! Banyak yang nanya beli dimana soalnya
+                            modelnya beda dari yang lain.</span
+                          >
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Budi Santoso</h3>
+                        <h4>Outdoor Enthusiast, Jakarta</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-1.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >Zipper pullnya unik banget! Tas ransel gue jadi
+                            paling eye-catching di kantor. Udah 6 bulan dipake
+                            masih awet padahal sering kehujanan.</span
+                          >
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Dewi Anggraeni</h3>
+                        <h4>Graphic Designer, Bandung</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-2.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >ID card kantor gue pake lanyard Kloowear udah
+                            setahun lebih. Tahan banting banget - bolak-balik
+                            proyek, kena hujan, masih aja kelihatan baru!</span
+                          >
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Rudi Hermawan</h3>
+                        <h4>Site Manager, Balikpapan</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-3.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >Tali kameranya enak banget dipakai seharian! Ringan
+                            tapi kuat, nggak bikin pegel leher kayak tali biasa.
+                            Warna orange-nya juga bikin gampang dicari kalo lagi
+                            sibuk liputan.</span
+                          >
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Fitriani Wijaya</h3>
+                        <h4>Photographer, Yogyakarta</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/testimonials/testimonials-4.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <!-- Section Title - Centered -->
+        <div class="container section text-center" data-aos="fade-up">
+          <h2>Founder</h2>
+          <p>The creative mind behind Kloowear's unique paracord designs</p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container">
+          <div class="row gy-4 justify-content-center">
+            <!-- Added justify-content-center -->
+            <!-- Single Team Member - Centered -->
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/team-1.jpg"
+                  class="img-fluid"
+                  alt="Kloowear Founder"
+                />
+                <h4>Rizky 'Kinthoel'</h4>
+                <span>Chief Paracord Artisan</span>
+                <div class="social">
+                  <a href="https://wa.me/6285747868690"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a href="https://www.facebook.com/sikinthoel"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/sikinthoel/"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+            <!--
                      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
                        <div class="member">
                          <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
@@ -739,203 +1076,224 @@
                        </div>
                      </div>
                      -->
-               </div>
-            </div>
-         </section>
-         <!-- /Team Section -->
-         <!-- Contact Section -->
-         <section id="contact" class="contact section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-               <h2>Get in Touch</h2>
-               <p>Have a question, custom request, or collaboration idea?
-                  We're here to help you stand out.
-               </p>
-            </div>
-            <!-- End Section Title -->
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row gy-4">
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Get in Touch</h2>
+          <p>
+            Have a question, custom request, or collaboration idea? We're here
+            to help you stand out.
+          </p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
             <div class="col-lg-5">
-               <div class="info-wrap">
-                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                     <i class="bi bi-geo-alt flex-shrink-0"></i>
-                     <div>
-                        <h3>Address</h3>
-                        <p>Jl. Setono No.110, Kota Kediri, Jawa Timur, INA - 64122</p>
-                     </div>
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>
+                      Jl. Setono No.110, Kota Kediri, Jawa Timur, INA - 64122
+                    </p>
                   </div>
-                  <!-- End Info Item -->
-                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                     <i class="bi bi-telephone flex-shrink-0"></i>
-                     <div>
-                        <h3>Call Us</h3>
-                        <p>+62 851 7991 4486</p>
-                     </div>
+                </div>
+                <!-- End Info Item -->
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+62 851 7991 4486</p>
                   </div>
-                  <!-- End Info Item -->
-                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                     <i class="bi bi-envelope flex-shrink-0"></i>
-                     <div>
-                        <h3>Email Us</h3>
-                        <p>contact@kloowear.com</p>
-                     </div>
+                </div>
+                <!-- End Info Item -->
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>contact@kloowear.com</p>
                   </div>
-                  <!-- End Info Item -->
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7976473762833!2d112.0240783758158!3d-7.811233277559197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785769f0541d41%3A0x7cedeee94ffacc00!2sKloowear%20Store!5e0!3m2!1sen!2sid!4v1746208908640!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-               </div>
+                </div>
+                <!-- End Info Item -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7976473762833!2d112.0240783758158!3d-7.811233277559197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785769f0541d41%3A0x7cedeee94ffacc00!2sKloowear%20Store!5e0!3m2!1sen!2sid!4v1746208908640!5m2!1sen!2sid"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
             <div class="col-lg-7">
-               <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-                  <div class="row gy-4">
-                     <div class="col-md-6">
-                        <label for="name-field" class="pb-2">Name</label>
-                        <input type="text" name="name" id="name-field" class="form-control" required="">
-                     </div>
-                     <div class="col-md-6">
-                        <label for="subject-field" class="pb-2">Phone</label>
-                        <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                     </div>
-                     <div class="col-md-12">
-                        <label for="email-field" class="pb-2">Email</label>
-                        <input type="email" class="form-control" name="email" id="email-field" required="">
-                     </div>
-                     <div class="col-md-12">
-                        <label for="message-field" class="pb-2">Chat Bakul Tali</label>
-                        <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                     </div>
-                     <div class="col-md-12 text-center">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                        <button type="submit">Send Message</button>
-                     </div>
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-field"
+                      class="form-control"
+                      required=""
+                    />
                   </div>
-               </form>
+                  <div class="col-md-6">
+                    <label for="subject-field" class="pb-2">Phone</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject-field"
+                      required=""
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <label for="email-field" class="pb-2">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email-field"
+                      required=""
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2"
+                      >Chat Bakul Tali</label
+                    >
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      id="message-field"
+                      required=""
+                    ></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <!-- End Contact Form -->
-         </section>
-         <!-- /Contact Section -->
-      </main>
-      <footer id="footer" class="footer dark-background">
-         <!-- 
-            <div class="container footer-top">
-              <div class="row gy-4">
-                <div class="col-lg-5 col-md-12 footer-about">
-                  <a href="index.html" class="logo d-flex align-items-center">
-                    <span class="sitename">Kloowear</span>
-                  </a>
-                  <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                  <div class="social-links d-flex mt-4">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-            
-                <div class="col-lg-2 col-6 footer-links">
-                  <h4>Useful Links</h4>
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
-                  </ul>
-                </div>
-            
-                <div class="col-lg-2 col-6 footer-links">
-                  <h4>Our Services</h4>
-                  <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
-                  </ul>
-                </div>
-            
-                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                  <h4>Contact Us</h4>
-                  <p>Jl. Setono No. 110</p>
-                  <p>Kediri, Jawa Timur - 64122</p>
-                  <p>Indonesia</p>
-                  <p class="mt-4"><strong>Phone:</strong> <span>+62 851 7991 4486</span></p>
-                  <p><strong>Email:</strong> <span>contact@kloowear.com</span></p>
-                </div>
-            
-              </div>
-            </div> -->
-         <div class="container copyright text-center mt-4">
-            <p>© <span>2025</span> <strong class="px-1 sitename">Kloowear</strong> <span>All Rights Reserved</span></p>
-         </div>
-      </footer>
-      <!-- Scroll Top -->
-      <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-      <!-- Preloader -->
-      <div id="preloader"></div>
-      <!-- Vendor JS Files -->
-      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/vendor/php-email-form/validate.js"></script>
-      <script src="assets/vendor/aos/aos.js"></script>
-      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-      <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-      <!-- Main JS File -->
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/swipper.js"></script>
-      
-      <!-- Popup Structure -->
-      <!--
-         <div id="reload-popup" class="popup-container">
-           <div class="popup-content">
-             <span class="close-btn">&times;</span>
-             <img src="assets/img/team/team-4.jpg" alt="Kloowear Paracord Bundle" width="100%">
-             <button id="popup-action-btn">Claim Discount</button>
-           </div>
-         </div>
-         -->
-      <!--
-         <script>
-           document.addEventListener('DOMContentLoaded', function() {
-             const popup = document.getElementById('reload-popup');
-             const closeBtn = document.querySelector('.close-btn');
-             const actionBtn = document.getElementById('popup-action-btn');
-           
-             // Cek localStorage untuk popup
-             if (!localStorage.getItem('popupShown')) {
-               setTimeout(() => {
-                 popup.style.display = 'flex';
-                 localStorage.setItem('popupShown', 'true');
-               }, 2000); // Tampilkan setelah 2 detik
-             }
-           
-             // Close button
-             closeBtn.addEventListener('click', () => {
-               popup.style.display = 'none';
-             });
-           
-             // Action button (contoh redirect ke produk)
-             actionBtn.addEventListener('click', () => {
-               window.location.href = "/products"; // Ganti dengan URL tujuan
-             });
-           
-             // Close ketika klik di luar popup
-             window.addEventListener('click', (e) => {
-               if (e.target === popup) {
-                 popup.style.display = 'none';
-               }
-             });
-           });
-           
-           // Trigger popup saat reload
-           window.addEventListener('beforeunload', function() {
-             localStorage.removeItem('popupShown'); // Reset supaya muncul lagi saat reload
-           });
-           </script>
-         
-         -->
-   </body>
+          </div>
+        </div>
+        <!-- End Contact Form -->
+      </section>
+      <!-- /Contact Section -->
+    </main>
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Kloowear</span>
+            </a>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta donna mare fermentum
+              iaculis eu non diam phasellus.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>Jl. Setono No. 110</p>
+            <p>Kediri, Jawa Timur - 64122</p>
+            <p>Indonesia</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+62 851 7991 4486</span>
+            </p>
+            <p><strong>Email:</strong> <span>contact@kloowear.com</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>2025</span> <strong class="px-1 sitename">Kloowear</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swipper.js"></script>
+  </body>
 </html>
